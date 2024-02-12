@@ -1,0 +1,67 @@
+{
+    "icecreams":[
+        {
+          "flavor": "Chocolate",
+          "description": "Rich and creamy chocolate ice cream.",
+          "toppings": ["Chocolate chips", "Whipped cream", "Chocolate sauce"],
+          "price": 3.99,
+          "image": "https://images.unsplash.com/photo-1514849302-984523450cf4?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "ingredients": [
+            {"name": "Milk", "quantity": "2 cups"},
+            {"name": "Sugar", "quantity": "1 cup"},
+            {"name": "Cocoa powder", "quantity": "1/2 cup"}
+          ]
+        },
+        {
+          "flavor": "Vanilla",
+          "description": "Classic creamy vanilla ice cream.",
+          "toppings": ["Sprinkles", "Caramel sauce", "Fresh berries"],
+          "price": 3.49,
+          "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?q=80&w=1968&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "ingredients": [
+            {"name": "Milk", "quantity": "2 cups"},
+            {"name": "Sugar", "quantity": "1 cup"},
+            {"name": "Vanilla extract", "quantity": "2 teaspoons"}
+          ]
+        },
+        {
+          "flavor": "Strawberry",
+          "description": "Refreshing strawberry ice cream made with real strawberries.",
+          "toppings": ["Sliced strawberries", "Whipped cream", "Strawberry syrup"],
+          "price": 4.29,
+          "image": "https://images.unsplash.com/photo-1532678465554-94846274c297?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "ingredients": [
+            {"name": "Strawberries", "quantity": "2 cups, chopped"},
+            {"name": "Milk", "quantity": "2 cups"},
+            {"name": "Sugar", "quantity": "1 cup"}
+          ]
+        },
+        {
+            "flavor": "Mint Chocolate Chip",
+            "description": "Cool mint ice cream with chocolate chips mixed in.",
+            "toppings": ["Crushed peppermint candies", "Chocolate shavings", "Mint leaves"],
+            "price": 4.99,
+            "image": "https://images.unsplash.com/photo-1504855101244-34edfbd4b861?q=80&w=2809&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "ingredients": [
+              {"name": "Milk", "quantity": "2 cups"},
+              {"name": "Sugar", "quantity": "1 cup"},
+              {"name": "Peppermint extract", "quantity": "1 teaspoon"},
+              {"name": "Chocolate chips", "quantity": "1/2 cup"}
+            ]
+          },
+          {
+            "flavor": "Cookies and Cream",
+            "description": "Smooth vanilla ice cream with chunks of chocolate sandwich cookies.",
+            "toppings": ["Crumbled cookies", "Chocolate sauce", "Whipped cream"],
+            "price": 4.49,
+            "image": "https://images.unsplash.com/photo-1618923850107-d1a234d7a73a?q=80&w=2788&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "ingredients": [
+              {"name": "Milk", "quantity": "2 cups"},
+              {"name": "Sugar", "quantity": "1 cup"},
+              {"name": "Vanilla extract", "quantity": "2 teaspoons"},
+              {"name": "Chocolate sandwich cookies", "quantity": "10 cookies, crushed"}
+            ]
+          }
+      ]
+      
+}
