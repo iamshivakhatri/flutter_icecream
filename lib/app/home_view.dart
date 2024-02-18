@@ -7,7 +7,7 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      backgroundColor: Colors.pink,
+      backgroundColor: Color.fromARGB(255, 239, 236, 237),
       body: SafeArea(
         child: IcecreamView()
         )
