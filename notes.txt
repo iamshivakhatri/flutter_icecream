@@ -1,0 +1,2 @@
+Whenever you see the json that contains the list then think of iterating it over
+because list that contains json is most probably iterated over. dict["name"].map((x)=> classname.function_name)
