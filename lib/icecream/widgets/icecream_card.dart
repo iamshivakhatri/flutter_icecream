@@ -16,11 +16,14 @@ SizedBox IcecreamCard(Icecream icecream, BuildContext context) {
                                 child: Stack(
                                   fit: StackFit.expand,
                                   children: [
-                                    CachedNetworkImage(
-                                      imageUrl: icecream.image!,
-                                      fit: BoxFit.cover,
-                                      height: 400,
-                                      ),
+                                    Hero(
+                                      tag: icecream.image!,
+                                      child: CachedNetworkImage(
+                                        imageUrl: icecream.image!,
+                                        fit: BoxFit.cover,
+                                        height: 400,
+                                        ),
+                                    ),
                                     Align(
                                       alignment: Alignment.bottomLeft,
                                       child: Container(
