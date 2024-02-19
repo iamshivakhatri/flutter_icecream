@@ -15,7 +15,6 @@ class IcecreamView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Icecream? selectedIcecream;
     return Padding(
       padding: const EdgeInsets.all(20.0),
       child: Column(
@@ -48,7 +47,6 @@ class IcecreamView extends StatelessWidget {
                 builder: (context, snapshot) {
                   if (snapshot.connectionState == ConnectionState.done) {
                     final icecreams = snapshot.data!;
-                    selectedIcecream = icecreams[0];
                     return Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
